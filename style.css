@@ -25,3 +25,29 @@ input:in-range{
 input:invalid {
     border: 2px solid red;
 }
+
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+li:last-child {
+    color: blueviolet;
+}
+
+div:empty {
+    border: 2px solid yellow;
+}
+
+tr:nth-child(even) {
+    background-color: #336699;
+}
+
+
+input:required {
+    color: pink;
+}
