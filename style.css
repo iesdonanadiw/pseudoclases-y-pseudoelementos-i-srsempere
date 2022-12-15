@@ -1,0 +1,27 @@
+body :not(h1) {
+    color: #336699;
+}
+
+div:hover {
+    border: 1px solid black;
+}
+
+input:focus {
+    background: lightblue;
+}
+
+input[type="radio"]:default {
+    box-shadow: 0 0 2px 2px coral;
+}
+
+input[type="radio"]:default + label {
+    color: coral;
+}
+
+input:in-range{
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
