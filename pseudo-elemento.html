@@ -22,6 +22,28 @@
       h2:before {
         content: url(icono.png);
       }
+
+      h1:after {
+        content: " - ";
+      }
+
+      h2::before {
+        content: "*";
+      }
+
+      .capital::first-letter{
+        color: red;
+        font-size: xx-large;
+      }
+
+      p:last-of-type::first-letter{
+        font-weight: bold;
+      }
+
+      ul li {
+        list-style-color: red;
+      }
+
     </style>
   </head>
   <body>
@@ -31,7 +53,7 @@
       <h1>Selecciona algo de texto de la página:</h1>
 
       <h2>Esto es una cabecera h2</h2>
-      
+
       <!-- TODO: Establece la primera letra del siguiente texto de color rojo y de tamaño 'xx-large' -->
       <p class="capital">You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!</p>
 
@@ -42,7 +64,7 @@
         labore quia nostrum eum cum. Asperiores veritatis, repellendus i sam
         explicabo numquam omnis ut dolorem.
       </p>
-      
+
       <!-- TODO: Mostrar las viñetas o números en color rojo -->
       <ul>
         <li>Lunes</li>
