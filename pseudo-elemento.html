@@ -40,8 +40,12 @@
         font-weight: bold;
       }
 
-      ul li {
-        list-style-color: red;
+      li::marker {
+        color: red;
+      }
+
+      input::placeholder {
+        color: orange;
       }
 
     </style>
@@ -78,6 +82,11 @@
         <li>Sábado</li>
       </ol>
 
+      <form action="" method="get">
+        <label for="">Nombre: </label>
+        <input type="text" name="" id="" placeholder="Introduce tu nombre: ">
+        <button>Enviar</button>
+      </form>
     </div>
   </body>
 </html>
