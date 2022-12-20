@@ -1,0 +1,24 @@
+h1:first-of-type {
+    color: red;
+}
+
+p:first-of-type {
+    color: rgb(3, 97, 3);
+}
+
+p:nth-of-type(5) {
+    color: blue;
+}
+
+h2:last-of-type {
+    color: #FC2CFA;
+}
+
+
+em:first-of-type {
+    color: #9BCB47;
+}
+
+strong:first-of-type {
+    color: #25FFFE;
+}
